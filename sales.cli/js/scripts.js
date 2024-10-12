@@ -8,4 +8,11 @@ document.addEventListener('scroll', function() {
 
     // Adjust the background position based on scroll
     parallax.style.backgroundPositionY = scrollPosition * 0.5 + 'px';
+
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 50) {
+        navbar.classList.add('transparent');
+    } else {
+        navbar.classList.remove('transparent');
+    }
 });
