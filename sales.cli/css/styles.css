@@ -19,12 +19,12 @@ body, html {
 }
 
 .parallax {
-    background-image: url('../assets/images/pexels-magda-ehlers-pexels-1279813.jpg');
+    background-image: url('../assets/images/pexels-pixabay-301673.jpg');
     background-attachment: fixed;
     background-size: cover; /* Asegura que la imagen cubra la sección completamente */
     background-position: center;
     min-height: 600px; /* Ajusta el tamaño mínimo para evitar cortes en pantallas más grandes */
-    filter: grayscale(100%); /* Aplica la escala de grises */
+    /* filter: grayscale(100%); Aplica la escala de grises */
 }
 
 #parallax-section .container {
